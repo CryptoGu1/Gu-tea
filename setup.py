@@ -7,25 +7,14 @@ setup(
     version='0.1',
     description='Simple project that makes a request to GitHub API.',
     py_modules=['hello_world_api1'],
-    url='https://github.com/madest92/teaxyzzz3',
+    url='https://github.com/CryptoGu1/Gu-tea.git',
     project_urls={
-        'Homepage': 'https://github.com/madest92/teaxyzzz3',
-        'Source': 'https://github.com/madest92/teaxyzzz3',
+        'Homepage': 'https://github.com/CryptoGu1/Gu-tea.git',
+        'Source': 'https://github.com/CryptoGu1/Gu-tea.git',
         },
-    py_modules=['hello_teaxyzzz3'],
-    entry_points={
-        'console_scripts': [
-            'hello-tea=hello_tea:hello_tea_func'
-        ]
-    },
-    classifiers=[
-        'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3',
-    ],
-    python_requires='>=3.6',
-    install_requires=[
-        'requests>=2.20.0',
-        'tea-xyz1',
-        'tea-xyz2',
-    ],
+    py_modules=['hello_world_api1'],
+     install_requires=[
+        'requests>=2.25.1',
+        'urllib3>=1.26.5'  # Дополнительная зависимость
+    ]
 )
