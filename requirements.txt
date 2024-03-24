@@ -1,3 +1,2 @@
-requests>=2.20.0
-tea-xyz1
-tea-xyz2
+'requests>=2.25.1',
+'urllib3>=1.26.5'
